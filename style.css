@@ -22,12 +22,11 @@ h1 {
 }
 
 table{
-  background-image: url(http://www.publicdomainpictures.net/pictures/240000/velka/blue-material-background.jpg);
-  width: 100%;
+    width: 100%;
 }
 
 #toolbar {
-  
+  background-image: url(http://www.publicdomainpictures.net/pictures/240000/velka/blue-material-background.jpg);
   color: #e8e9ed;
   text-align: center;
 }
