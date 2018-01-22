@@ -33,17 +33,18 @@ a:hover, a:active {
   color:rgb(145, 145, 145);
 }
 
-
+/*
 #toolbarTexture {
     position: absolute;
     width: 100%;
     height: 400px;
     box-shadow: 10px 10px 5px grey;
-    /*z-index: 2;*/
+    /*z-index: 2;
 }
-
+*/
 
 #toolbar {
+  background-image: url(blue-material-bakground.jpg);
   margin: 0 auto;
   position: relative;
   color: #e8e9ed;
