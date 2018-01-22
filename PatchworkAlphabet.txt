@@ -1,0 +1,5 @@
+Based on a graphic alphabet, each letter is composed of the same three 
+different fabric patterns. The zipped TT and OT versions to follow 
+each contain fonts that are between 400KB and 500KB.
+
+3/21/2007

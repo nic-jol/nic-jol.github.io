@@ -1,0 +1,37 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+@font-face {
+  font-family: "FabricsLight";
+  src: url("FabricsLight.ttf");
+}
+
+body {
+  background-image: url(quilt-blue.jpg);
+  font-family: "FabricsLight";
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+table{
+  background-image: url(http://www.publicdomainpictures.net/pictures/240000/velka/blue-material-background.jpg);
+  width: 100%;
+}
+
+#toolbar {
+  
+  color: #e8e9ed;
+  text-align: center;
+}
+
+#logo {
+  border-radius: 50%;
+}
