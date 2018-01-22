@@ -10,29 +10,54 @@
 
 body {
   background-image: url(quilt-blue.jpg);
-  font-family: "FabricsLight";
+  /*font-family: "FabricsLight";*/
+  font-family: Merriweather, sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
   color: #444;
 }
 
-h1 {
-  font-size: 50px;
-}
-
 table{
     width: 100%;
 }
 
-a:link {
+li a:link {
   text-decoration: none; 
 }
 
-a:hover, a:active {
+li a:hover {
   color:rgb(145, 145, 145);
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url(blue-material-background.jpg);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #e8e9ed;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  color:rgb(145, 145, 145);
+}
+
+#title {
+  font-family: "FabricsLight";
+  font-size: 50px;
+}
 /*
 #toolbarTexture {
     position: absolute;
@@ -41,17 +66,15 @@ a:hover, a:active {
     box-shadow: 10px 10px 5px grey;
     /*z-index: 2;
 }
-*/
+
 
 #toolbar {
   background-image: url(blue-material-background.jpg);
   color: #e8e9ed;
   text-align: center;
- /* z-index: 10;*/
+ /* z-index: 10;
 }
-
-
-
+*/
 #logo {
   border-radius: 50%;
 }
