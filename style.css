@@ -44,9 +44,7 @@ a:hover, a:active {
 */
 
 #toolbar {
-  background-image: url(blue-material-bakground.jpg);
-  margin: 0 auto;
-  position: relative;
+  background-image: url(blue-material-background.jpg);
   color: #e8e9ed;
   text-align: center;
  /* z-index: 10;*/
