@@ -73,8 +73,8 @@ li a {
 }
 
 .homeImages {
-  width: 454px;
-  height: 300px; 
+  width: 600px;
+  height: 396px; 
 }
 
 .homeImages:hover {
@@ -83,20 +83,9 @@ li a {
 }
 
 .imageText{
-  opacity: 0;
   position: absolute;
   font-family: "FabricsLight";
-  font-size: 1.5em;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.imageText:hover{
-  opacity: 1;
-  position: absolute;
-  font-family: "FabricsLight";
-  font-size: 1.5em;
+  font-size: 2em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -110,15 +99,21 @@ li a {
 #title {
   font-family: "FabricsLight";
   font-size: 80px;
+  padding: 0;
+  margin: 0;
 }
 
 #shopping {
   float: right;
+  padding: 0;
+  margin: 0;
 }
 
 #logo {
   border-radius: 50%;
   float: left;
+  padding: 0;
+  margin: 0;
 }
 
 
