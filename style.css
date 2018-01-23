@@ -18,16 +18,23 @@ body {
   color: #444;
 }
 
+a {
+  text-decoration: none;
+  color: #444;
+}
+
 table{
     width: 100%;
 }
 
 li a:link {
   text-decoration: none; 
+  text-align: center;
 }
 
 li a:hover {
   color:rgb(145, 145, 145);
+  text-align: center;
 }
 
 ul {
@@ -36,6 +43,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-image: url(blue-material-background.jpg);
+  text-align: center;
 }
 
 li {
@@ -65,11 +73,17 @@ li a {
 }
 
 .homeImages {
-  width: 198px;
+  width: 454px;
   height: 300px; 
 }
 
+.homeImages:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 .imageText{
+  opacity: 0;
   position: absolute;
   font-family: "FabricsLight";
   font-size: 1.5em;
@@ -78,9 +92,19 @@ li a {
   transform: translate(-50%, -50%);
 }
 
-.imageText:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+.imageText:hover{
+  opacity: 1;
+  position: absolute;
+  font-family: "FabricsLight";
+  font-size: 1.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#titlebar {
+  padding: 0;
+  margin: 0;
 }
 
 #title {
