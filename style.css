@@ -67,6 +67,10 @@ li a {
   float: right;
 }
 
+.homeImages {
+  height: 50%;
+}
+
 /*
 #toolbarTexture {
     position: absolute;
