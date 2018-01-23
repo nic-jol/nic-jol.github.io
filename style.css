@@ -65,14 +65,22 @@ li a {
 }
 
 .homeImages {
-  height: 300px;
+  width: 198px;
+  height: 300px; 
 }
 
 .imageText{
   position: absolute;
+  font-family: "FabricsLight";
+  font-size: 1.5em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.imageText:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 #title {
