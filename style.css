@@ -12,7 +12,7 @@ body {
   /*font-family: "FabricsLight";*/
   font-family: 'Merriweather Sans', sans-serif;
   padding: 5px 25px;
-  font-size: 18px;
+  font-size: 30px;
   margin: 0;
   color: #444;
 }
@@ -39,7 +39,7 @@ li a:hover {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   overflow: hidden;
   background-image: url(blue-material-background.jpg);
@@ -74,7 +74,7 @@ footer {
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: #e8e9ed;
 }
 
 .container:hover .image {
@@ -103,7 +103,7 @@ footer {
   position: absolute;
   font-family: "FabricsLight";
   font-size: 3.5em;
-  color: white;
+  color: #e8e9ed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -120,9 +120,12 @@ footer {
   text-align: center;
 }
 
-#titlebar {
-  padding: 0;
-  margin: 0;
+#toolbar {
+  margin: 0 auto;
+}
+
+#mainTable {
+  margin: 0 auto;
 }
 
 #title {
@@ -139,7 +142,6 @@ footer {
 }
 
 #logo {
-  border-radius: 50%;
   float: left;
   padding: 0;
   margin: 0;
