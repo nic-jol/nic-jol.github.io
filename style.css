@@ -46,7 +46,7 @@ li a {
   display: block;
   color: #e8e9ed;
   text-align: center;
-  padding: 14px 24px;
+  padding: 14px 100px;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ li a {
   display: block;
   color:rgb(145, 145, 145);
   text-align: center;
-  padding: 14px 24px;
+  padding: 14px 100px;
   text-decoration: none;
 }
 
@@ -86,4 +86,5 @@ li a {
 */
 #logo {
   border-radius: 50%;
+  float: left;
 }
