@@ -24,6 +24,7 @@ a {
 
 table{
     width: 100%;
+    text-align: center;
 }
 
 li a:link {
@@ -66,7 +67,7 @@ footer {
   display: block;
   color:rgb(145, 145, 145);
   text-align: center;
-  padding: 14px 100px;
+  padding: 30px 100px;
   text-decoration: none;
 }
 
@@ -102,6 +103,7 @@ footer {
   position: absolute;
   font-family: "FabricsLight";
   font-size: 3.5em;
+  color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
