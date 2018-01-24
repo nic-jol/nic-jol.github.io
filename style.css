@@ -19,7 +19,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #444; 
+  /*color: #444;*/ 
 }
 
 ul {
@@ -181,6 +181,10 @@ footer {
   text-align: left;
   background-color:  #444;
   padding: 10px;
+}
+
+#patternTable a {
+  color: #e8e9ed;
 }
 
 #patternTable a:hover {
