@@ -125,9 +125,18 @@ footer {
 }
 
 .contactImages {
-  width: 100px;
-  height: 100px;
-  float: right;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.contactText {
+  text-align: center;
+}
+
+#titlebar table {
+  width: 100%;
 }
 
 #toolbar {
@@ -155,12 +164,17 @@ footer {
   float: left;
   padding: 0;
   margin: 0;
+  border-radius: 50%;
 }
 
 #patternTable {
   text-align: center;
   border-collapse: collapse;
   border-color: #444;
+}
+
+#patternTable tr {
+  padding-right: 20px;
 }
 
 #patternTable th {
@@ -179,6 +193,11 @@ footer {
 
 #patternTable a:hover {
   color: rgb(145, 145, 145);
+}
+
+#patternImages {
+  text-align: center;
+  width: 50%;
 }
 
 
