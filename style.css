@@ -26,10 +26,8 @@ table {
     width: 100%;
 }
 
-#mainTable table {
+#main td {
   text-align: center;
-  margin-left: auto; 
-  margin-right: auto;
 }
 
 li a:link {
