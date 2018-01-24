@@ -105,7 +105,7 @@ footer {
 
 .imageText{
   position: absolute;
-  font-family: "FabricsLight";
+  font-family: "FabricsLight", 'Merriweather Sans';
   font-size: 3.5em;
   color: #e8e9ed;
   top: 50%;
@@ -124,18 +124,19 @@ footer {
   text-align: center;
 }
 
-contactTable img {
+#contactTable img {
   text-align: right;
   width: 200px;
   height: 200px;
 }
 
-contactTable h1 {
+#contactTable h1 {
   text-align: center;
 }
 
-contactText {
+.contactText {
   font-size: 36px;
+  font-family: "FabricsLight", 'Merriweather Sans';
 }
 
 #titlebar table {
@@ -151,7 +152,7 @@ contactText {
 }
 
 #title {
-  font-family: "FabricsLight";
+  font-family: "FabricsLight", 'Merriweather Sans';
   font-size: 80px;
   padding: 0;
   margin: 0;
@@ -198,7 +199,7 @@ contactText {
   color: rgb(145, 145, 145);
 }
 
-#patternImages {
+.patternImages {
   text-align: center;
   width: 500px;
 }
