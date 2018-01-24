@@ -167,7 +167,10 @@ footer a {
 #bestSellers {
   border-width: 2px;
   border-style: outset;
-  float: right;
+  background-color: white;
+}
+
+#bestSellers a {
   color: #444;  
 }
 
@@ -243,7 +246,8 @@ footer a {
 }
 
 .innerContactTable:hover{
-  box-shadow: none;
+  width: 610px;
+  height: 310px;
 }
 
 
