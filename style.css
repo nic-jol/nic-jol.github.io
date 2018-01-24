@@ -176,7 +176,7 @@ footer {
   padding: 10px;
 }
 
-#patternTable td {
+#patternTable td, #patternTable a {
   color: #e8e9ed;
   text-align: left;
   background-color:  #444;
@@ -214,11 +214,12 @@ footer {
   background-color: white;
   width: 600px;
   height: 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
   
 }
 
 .innerContactTable:hover{
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: none;
 }
 
 
