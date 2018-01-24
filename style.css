@@ -31,28 +31,6 @@ ul {
   text-align: center;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #e8e9ed;
-  text-align: center;
-  padding: 30px 100px;
-  text-decoration: none;
-}
-
-li a:link {
-  text-decoration: none; 
-  text-align: center;
-}
-
-li a:hover {
-  color:rgb(145, 145, 145);
-  text-align: center;
-}
-
 footer {
   font-size: 15;
   padding: 0;
@@ -80,6 +58,28 @@ footer a {
 
 #toolbar {
   margin: 0 auto;
+}
+
+#toolbar li {
+  float: left;
+}
+
+#toolbar li a {
+  display: block;
+  color: #e8e9ed;
+  text-align: center;
+  padding: 30px 100px;
+  text-decoration: none;
+}
+
+#toolbar li a:link {
+  text-decoration: none; 
+  text-align: center;
+}
+
+#toolbar li a:hover {
+  color:rgb(145, 145, 145);
+  text-align: center;
 }
 
 #title {
@@ -167,7 +167,7 @@ footer a {
 
 .bestSellers {
   border-width: 2px;
-  border-style: outset;
+  border-style: groove;
   background-color: white;
 }
 
@@ -176,17 +176,19 @@ footer a {
 }
 
 .merch {
-  width: 100px;
+  width: 400px;
 }
 
 .rating {
-  width: 100px;
+  width: 400px;
 }
 
 .productBlock {
+  text-align: center;
+  width: 500px;
   background-color: white;
   border-width: 2px;
-  border-style: outset;
+  border-style: groove;
   border-color: #444;
 }
 
