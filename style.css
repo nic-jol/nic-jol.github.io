@@ -21,11 +21,11 @@ a {
   text-decoration: none;
   color: #444;
 }
-
+/*
 table {
     width: 100%;
 }
-
+*/
 #main td {
   text-align: center;
 }
@@ -124,6 +124,12 @@ footer {
   text-align: center;
 }
 
+.contactImages {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
 #toolbar {
   margin: 0 auto;
 }
@@ -154,18 +160,25 @@ footer {
 #patternTable {
   text-align: center;
   border-collapse: collapse;
+  border-color: #444;
 }
 
 #patternTable th {
   text-align: left;
   background-color: #444;
   color: #e8e9ed;
+  padding: 10px;
 }
 
 #patternTable td {
   text-align: left;
   background-color: #e8e9ed;
   color: #444;
+  padding: 10px;
+}
+
+#patternTable a:hover {
+  color: rgb(145, 145, 145);
 }
 
 
