@@ -59,6 +59,10 @@ footer {
   margin: 0;
 }
 
+footer a {
+  color: #444;
+}
+
 
 
 /* Toolbar, Title */
@@ -155,6 +159,19 @@ footer {
 }
 
 
+/* All Products page */
+.allpTitles {
+  font-family: "FabricsLight", 'Merriweather Sans';
+}
+
+#bestSellers {
+  border-width: 2px;
+  border-style: outset;
+  float: right;
+  color: #444;  
+}
+
+
 
 /* Pattern Page */
 #patternTable {
@@ -210,6 +227,10 @@ footer {
   text-align: center;
 }
 
+#contactTable a {
+  color: #444;
+}
+
 #contactTable th, #contactTable td {
   padding: 25px;
 }
@@ -219,7 +240,6 @@ footer {
   width: 600px;
   height: 300px;
   box-shadow: 10px 10px 5px #aaaaaa;
-  
 }
 
 .innerContactTable:hover{
