@@ -134,9 +134,24 @@ footer {
   text-align: center;
 }
 
+#contactTable th, td {
+  padding-bottom: 50px;
+}
+
 .contactText {
+  background-color: #444;
+  color: #e8e9ed;
+  border-radius: 10%;
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
+}
+
+.contactText:hover {
+  background-color: rgb(145, 145, 145);
+  color: #e8e9ed;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 80px;
 }
 
 #titlebar table {
@@ -175,6 +190,7 @@ footer {
   text-align: center;
   border-collapse: collapse;
   border-color: #444;
+  border-radius: 5%;
 }
 
 #patternTable tr {
@@ -183,15 +199,15 @@ footer {
 
 #patternTable th {
   text-align: left;
-  background-color: #444;
-  color: white;
+  background-color: rgb(39, 39, 39);
+  color: #e8e9ed;
   padding: 10px;
 }
 
 #patternTable td {
   text-align: left;
-  background-color: white;
-  color: #444;
+  background-color:  #444;
+  color: #e8e9ed;
   padding: 10px;
 }
 
