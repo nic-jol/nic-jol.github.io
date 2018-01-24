@@ -122,6 +122,7 @@ footer {
 
 #contactTable img {
   text-align: right;
+  float: right;
   width: 200px;
   height: 200px;
 }
@@ -132,6 +133,12 @@ footer {
 
 #contactTable th, #contactTable td {
   padding: 25px;
+}
+
+.contactTiles {
+  background-color: #e8e9ed;
+  width: 600px;
+  height: 300px;
 }
 
 .contactText {
