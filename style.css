@@ -124,15 +124,18 @@ footer {
   text-align: center;
 }
 
-.contactImages {
-  text-align: center;
+contactTable img {
+  text-align: right;
   width: 200px;
   height: 200px;
-  float: left;
 }
 
-.contactText {
+contactTable h1 {
   text-align: center;
+}
+
+contactText {
+  font-size: 36px;
 }
 
 #titlebar table {
@@ -197,7 +200,7 @@ footer {
 
 #patternImages {
   text-align: center;
-  width: 50%;
+  width: 500px;
 }
 
 
