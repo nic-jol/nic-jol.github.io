@@ -99,7 +99,7 @@ footer {
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-.imageText{
+.imageText {
   position: absolute;
   font-family: "FabricsLight", 'Merriweather Sans';
   font-size: 3.5em;
@@ -120,17 +120,17 @@ footer {
   text-align: center;
 }
 
-#contactTable img {
+#contactTable > img {
   text-align: right;
   width: 200px;
   height: 200px;
 }
 
-#contactTable h1 {
+#contactTable > h1 {
   text-align: center;
 }
 
-#contactTable th, #contactTable td {
+#contactTable > th, #contactTable > td {
   padding: 25px;
 }
 
@@ -152,7 +152,7 @@ footer {
   font-size: 80px;
 }
 
-#titlebar table {
+#titlebar > table {
   width: 100%;
 }
 
@@ -191,25 +191,25 @@ footer {
   border-radius: 5%;
 }
 
-#patternTable tr {
+#patternTable > tr {
   padding-right: 20px;
 }
 
-#patternTable th {
+#patternTable > th {
   text-align: left;
   background-color: rgb(39, 39, 39);
   color: #e8e9ed;
   padding: 10px;
 }
 
-#patternTable td {
+#patternTable > td {
   color: #e8e9ed;
   text-align: left;
   background-color:  #444;
   padding: 10px;
 }
 
-#patternTable a:hover {
+#patternTable > a:hover {
   color: rgb(145, 145, 145);
 }
 
