@@ -162,7 +162,7 @@ footer a {
 /* All Products page */
 .allpTitles {
   font-family: "FabricsLight", 'Merriweather Sans';
-  font-size: 50px;
+  font-size: 60px;
 }
 
 #bestSellers {
@@ -247,6 +247,7 @@ footer a {
 }
 
 .innerContactTable:hover{
+  background-color: #444;
   box-shadow: none;
 }
 
