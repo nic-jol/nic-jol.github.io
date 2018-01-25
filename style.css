@@ -215,7 +215,7 @@ footer a {
   width: 250px;
 }
 
-.productBlock a {
+#animals a, #blankets a {
   color: #444;
 }
 
