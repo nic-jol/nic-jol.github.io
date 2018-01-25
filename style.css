@@ -165,20 +165,22 @@ footer a {
 .allpTitles {
   font-family: "FabricsLight", 'Merriweather Sans';
   font-size: 60px;
+  text-align: center;
 }
 
 .bestSellers {
+  text-align: center;
   border-width: 3px;
   border-style: groove;
-  background-color: white;
-  border-color: rgb(145, 145, 145);
+  background-image: url(blue-material-background.jpg);
+  border-color: #444;
 }
 
-#animals a, #blankets a {
-  color: #444;  
+.bestSellers a {
+  color: white;
 }
 
-#animals a:hover, #blankets a:hover {
+.bestSellers a:hover {
   color: rgb(145, 145, 145);
 }
 
@@ -195,11 +197,29 @@ footer a {
 .productBlock {
   text-align: center;
   width: 350px;
+  height: 350px;
+  box-shadow: 10px 10px 5px #aaaaaa;
   background-color: white;
   border-width: 1px;
   border-style: groove;
   border-color: rgb(145, 145, 145);
-  padding: 40px;
+  padding: 25px;
+}
+
+.productBlock:hover{
+  box-shadow: none;
+}
+
+.productBlock img, .productBlock h2 {
+  padding: 0px;
+}
+
+.productBlock a {
+  color: #444; 
+}
+
+.productBlock a:hover {
+  color: rgb(145, 145, 145);
 }
 
 
