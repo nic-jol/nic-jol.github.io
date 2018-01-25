@@ -32,7 +32,7 @@ ul {
 }
 
 footer {
-  font-size: 15;
+  font-size: 15px;
   padding: 0;
   margin: 0;
 }
@@ -90,12 +90,14 @@ footer a {
 }
 
 #shopping {
+  width: 70px;
   float: right;
   padding: 0;
   margin: 0;
 }
 
 #logo {
+  width: 100px;
   float: left;
   padding: 0;
   margin: 0;
@@ -134,7 +136,6 @@ footer a {
 
 .homeImages:hover {
   opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 .imageText {
