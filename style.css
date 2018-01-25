@@ -176,11 +176,19 @@ footer a {
 }
 
 .merch {
-  width: 400px;
+  width: 250px;
+}
+
+.merch a {
+  color: #444;
+}
+
+.merch a:hover {
+  color: rgb(145, 145, 145);
 }
 
 .rating {
-  width: 400px;
+  width: 250px;
 }
 
 .productBlock {
