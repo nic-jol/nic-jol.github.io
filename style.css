@@ -159,6 +159,7 @@ footer a {
 }
 
 
+
 /* All Products page */
 .allpTitles {
   font-family: "FabricsLight", 'Merriweather Sans';
@@ -171,20 +172,16 @@ footer a {
   background-color: white;
 }
 
-.bestSellers a {
+#animals a, #blankets a {
   color: #444;  
+}
+
+#animals a:hover, #blankets a:hover {
+  color: rgb(145, 145, 145);
 }
 
 .merch {
   width: 250px;
-}
-
-.merch a {
-  color: #444;
-}
-
-.merch a:hover {
-  color: rgb(145, 145, 145);
 }
 
 .rating {
@@ -193,11 +190,11 @@ footer a {
 
 .productBlock {
   text-align: center;
-  width: 500px;
+  width: 350px;
   background-color: white;
-  border-width: 2px;
+  border-width: 1px;
   border-style: groove;
-  border-color: #444;
+  border-color: rgb(145, 145, 145);
 }
 
 
