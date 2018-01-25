@@ -162,10 +162,25 @@ footer a {
 
 
 /* All Products page */
-.allpTitles {
-  font-family: "FabricsLight", 'Merriweather Sans';
-  font-size: 60px;
-  text-align: center;
+#mainProducts {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-flow: row;
+}
+
+#mainProducts > article {
+  margin: 4px;
+  padding: 5px;
+  flex: 3 1 60%;
+  order: 2;
+}
+
+#mainProducts > nav {
+  margin: 4px;
+  padding: 5px;
+  flex: 1 6 20%;
+  order: 1;
 }
 
 .bestSellers {
@@ -227,14 +242,6 @@ footer a {
 
 .productBlock img, .productBlock h2 {
   padding: 0px;
-}
-
-.productBlock a {
-  color: #444; 
-}
-
-.productBlock a:hover {
-  color: rgb(145, 145, 145);
 }
 
 
