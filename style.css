@@ -167,9 +167,10 @@ footer a {
 }
 
 .bestSellers {
-  border-width: 2px;
+  border-width: 3px;
   border-style: groove;
   background-color: white;
+  border-color: rgb(145, 145, 145);
 }
 
 #animals a, #blankets a {
@@ -182,10 +183,12 @@ footer a {
 
 .merch {
   width: 250px;
+  padding: 50px 0px 0px;
 }
 
 .rating {
   width: 250px;
+  padding: 0px 0px 50px;
 }
 
 .productBlock {
@@ -195,6 +198,7 @@ footer a {
   border-width: 1px;
   border-style: groove;
   border-color: rgb(145, 145, 145);
+  padding: 40px;
 }
 
 
