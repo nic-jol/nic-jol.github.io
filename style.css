@@ -188,8 +188,6 @@ footer a {
   border-style: groove;
   background-image: url(blue-material-background.jpg);
   border-color: #444;
-  padding-left: 100px;
-  float: right;
 }
 
 .bestSellers h2 {
@@ -199,10 +197,6 @@ footer a {
 
 .bestSellers li {
   text-align: left;
-}
-
-.bestSellers tr {
-  padding: 0px;
 }
 
 .bestSellers a {
@@ -215,12 +209,14 @@ footer a {
 
 .merch {
   width: 250px;
-  padding: 50px 0px 0px;
 }
 
 .rating {
   width: 250px;
-  padding: 0px 0px 50px;
+}
+
+.productBlock a {
+  color: #444;
 }
 
 .productBlock {
@@ -240,9 +236,6 @@ footer a {
   box-shadow: none;
 }
 
-.productBlock img, .productBlock h2 {
-  padding: 0px;
-}
 
 
 
