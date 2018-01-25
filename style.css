@@ -190,6 +190,14 @@ footer a {
   border-color: #444;
 }
 
+.bestSellers th {
+  background-color: rgb(39, 39, 39); 
+}
+
+.bestSellers td {
+  background-color: #444;
+}
+
 .bestSellers h2 {
   text-align: center;
   color: white;
@@ -217,6 +225,10 @@ footer a {
 
 #animals a, #blankets a {
   color: #444;
+}
+
+#animals td, #blankets td {
+  border-spacing: 25px 25px;
 }
 
 .productBlock {
