@@ -184,13 +184,13 @@ footer a {
 }
 
 .bestSellers {
-  border-width: 3px;
-  border-style: groove;
+  border-width: 0px;
   border-color: #444;
 }
 
 .bestSellers th {
   background-color: rgb(39, 39, 39); 
+  color: white;
 }
 
 .bestSellers td {
@@ -241,6 +241,10 @@ footer a {
   color: white;
   background-color: #444;
   box-shadow: none;
+}
+
+.products td {
+  padding: 25px;
 }
 
 
