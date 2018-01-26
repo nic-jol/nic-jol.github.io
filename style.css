@@ -162,21 +162,21 @@ footer a {
 
 
 /* All Products page */
-#mainProducts {
+.mainProducts {
   margin: 0px;
   padding: 0px;
   display: flex;
   flex-flow: row;
 }
 
-#mainProducts > article {
+.mainProducts > article {
   margin: 4px;
   padding: 5px;
   flex: 3 1 60%;
   order: 2;
 }
 
-#mainProducts > nav {
+.mainProducts > nav {
   margin: 4px;
   padding: 5px;
   flex: 1 6 20%;
@@ -197,13 +197,9 @@ footer a {
   background-color: #444;
 }
 
-.bestSellers h2 {
-  text-align: center;
-  color: white;
-}
-
 .bestSellers li {
   text-align: left;
+  color: white;
 }
 
 .bestSellers a {
