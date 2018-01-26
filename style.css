@@ -183,31 +183,31 @@ footer a {
   order: 1;
 }
 
-.bestSellers {
+.sellerTable {
   border-width: 0px;
   border-color: #444;
 }
 
-.bestSellers th {
+.sellerTable th {
   background-color: rgb(39, 39, 39); 
   color: white;
 }
 
-.bestSellers td {
+.sellerTable td {
   background-color: #444;
 }
 
-.bestSellers li {
+.sellerTable li {
   text-align: left;
   color: white;
 }
 
-.bestSellers a {
+.sellerTable a {
   color: white;
 }
 
 .bestSellers a:hover {
-  color: rgb(145, 145, 145);
+  color: #e8e9ed;
 }
 
 .merch {
@@ -234,19 +234,26 @@ footer a {
   background-color: white;
   border-width: 1px;
   border-style: groove;
-  border-color: rgb(145, 145, 145);
+  border-color: #e8e9ed;
 }
 
 .productBlock:hover{
-  color: white;
-  background-color: #444;
+  background-color: #e8e9ed;
   box-shadow: none;
 }
 
 .products td {
-  padding: 25px;
+  padding: 10px;
 }
 
+sellerTable th {
+  padding: 10px;
+  text-align: center;
+}
+
+.sellerTable td {
+  padding: 10px;
+}
 
 
 
