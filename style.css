@@ -111,6 +111,12 @@ footer a {
   text-align: center;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: #e8e9ed;
+}
+
 .homeImages {
   opacity: 1;
   display: block;
@@ -131,13 +137,7 @@ footer a {
   text-align: center;
 }
 
-/*
-.container {
-  position: relative;
-  text-align: center;
-  color: #e8e9ed;
-}
-*/
+
 
 .container:hover .homeImages {
   opacity: 0.3;
@@ -186,7 +186,7 @@ footer a {
 .sellerTable {
   border-width: 0px;
   border-color: #444;
-  width: 200px;
+  width: 350px;
 }
 
 .sellerTable th {
