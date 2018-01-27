@@ -186,6 +186,7 @@ footer a {
 .sellerTable {
   border-width: 0px;
   border-color: #444;
+  width: 200px;
 }
 
 .sellerTable th {
