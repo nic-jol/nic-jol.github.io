@@ -137,10 +137,12 @@ footer a {
   text-align: center;
 }
 
-
-
 .container:hover .homeImages {
-  opacity: 0.3;
+  background-color: black;
+}
+
+.container:hover img {
+  opacity: 0.8;
 }
 
 .container:hover .middle {
