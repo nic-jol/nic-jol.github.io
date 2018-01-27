@@ -185,34 +185,6 @@ footer a {
   order: 1;
 }
 
-.sellerTable {
-  border-width: 0px;
-  border-color: #444;
-  width: 350px;
-}
-
-.sellerTable th {
-  background-color: rgb(39, 39, 39); 
-  color: white;
-}
-
-.sellerTable td {
-  background-color: #444;
-}
-
-.sellerTable li {
-  text-align: left;
-  color: white;
-}
-
-.sellerTable a {
-  color: white;
-}
-
-.bestSellers a:hover {
-  color: rgb(145, 145, 145);
-}
-
 .merch {
   width: 250px;
 }
@@ -250,16 +222,35 @@ footer a {
 }
 
 .sellerTable {
-  padding: 10px;
-}
-
-.sellerTable td {
+  border-width: 0px;
+  border-color: #444;
+  width: 300px;
   padding: 10px;
 }
 
 .sellerTable th {
+  background-color: rgb(39, 39, 39); 
+  color: white;
   text-align: center;
+  padding-top: 10px;
+}
+
+.sellerTable td {
+  background-color: #444;
   padding: 10px;
+}
+
+.sellerTable li {
+  text-align: left;
+  color: white;
+}
+
+.sellerTable a {
+  color: white;
+}
+
+.bestSellers a:hover {
+  color: rgb(145, 145, 145);
 }
 
 
