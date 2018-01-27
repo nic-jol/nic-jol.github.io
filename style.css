@@ -246,13 +246,12 @@ footer a {
   padding: 10px;
 }
 
-sellerTable th {
+.sellerTable {
   padding: 10px;
-  text-align: center;
 }
 
-.sellerTable td {
-  padding: 10px;
+.sellerTable th {
+  text-align: center;
 }
 
 
@@ -305,7 +304,10 @@ sellerTable th {
 
 .actualVideo {
   text-align: center;
+  padding: 10px;
 }
+
+
 
 
 /* Contact Us Page */
