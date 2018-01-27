@@ -234,7 +234,7 @@ footer a {
   background-color: white;
   border-width: 1px;
   border-style: groove;
-  border-color: #e8e9ed;
+  border-color: rgb(145, 145, 145);
 }
 
 .productBlock:hover{
@@ -297,6 +297,15 @@ sellerTable th {
   width: 500px;
 }
 
+.videoText {
+  text-align: center;
+  font-size: 36px;
+  color: #444;
+}
+
+.actualVideo {
+  text-align: center;
+}
 
 
 /* Contact Us Page */
