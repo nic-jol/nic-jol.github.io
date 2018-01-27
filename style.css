@@ -111,32 +111,13 @@ footer a {
   text-align: center;
 }
 
-.container {
-  position: relative;
-  text-align: center;
-  color: #e8e9ed;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
 .homeImages {
+  opacity: 1;
   display: block;
   width: 600px;
   height: 396px; 
   transition: .5s ease;
   backface-visibility: hidden;
-}
-
-.imageText {
-  position: absolute;
-  font-family: "FabricsLight", 'Merriweather Sans';
-  font-size: 3.5em;
-  color: #e8e9ed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .middle {
@@ -149,6 +130,34 @@ footer a {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/*
+.container {
+  position: relative;
+  text-align: center;
+  color: #e8e9ed;
+}
+*/
+
+.container:hover .homeImages {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.imageText {
+  position: absolute;
+  font-family: "FabricsLight", 'Merriweather Sans';
+  font-size: 3.5em;
+  color: #e8e9ed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 
 
