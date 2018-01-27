@@ -117,25 +117,16 @@ footer a {
   color: #e8e9ed;
 }
 
-.container:hover .image {
-  opacity: 0.3;
-}
-
 .container:hover .middle {
   opacity: 1;
 }
 
 .homeImages {
-  opacity: 1;
   display: block;
   width: 600px;
   height: 396px; 
   transition: .5s ease;
   backface-visibility: hidden;
-}
-
-.homeImages:hover {
-  opacity: 0.5;
 }
 
 .imageText {
