@@ -186,11 +186,11 @@ footer a {
 }
 
 .merch {
-  width: 250px;
+  width: 187.5px;
 }
 
 .rating {
-  width: 250px;
+  width: 187.5px;
 }
 
 #animals a, #blankets a {
@@ -203,8 +203,8 @@ footer a {
 
 .productBlock {
   text-align: center;
-  width: 500px;
-  height: 500px;
+  width: 375px;
+  height: 375px;
   box-shadow: 10px 10px 5px #aaaaaa;
   background-color: white;
   border-width: 1px;
