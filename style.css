@@ -370,6 +370,10 @@ footer a {
   opacity: 1;
 }
 
+#secret-image.out {
+  opacity: 0;
+}
+
 .secret-image-container {
   display: flex;
   justify-content: center;
