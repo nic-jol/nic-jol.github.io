@@ -9,12 +9,15 @@
 
 /* General Elements */
 body {
-  background-image: url(gray-fabric-light.jpg);
+  background-image: url(img/blue-background.jpg);
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
   font-family: 'Merriweather Sans', sans-serif;
   padding: 5px 25px;
   font-size: 20px;
   margin: 0;
   color: #444;
+  text-decoration: none;
 }
 
 a {
@@ -27,7 +30,7 @@ ul {
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  background-image: url(blue-material-background.jpg);
+  background-image: url(img/blue-material-background.jpg);
   text-align: center;
 }
 
@@ -58,6 +61,7 @@ footer a {
 
 #toolbar {
   margin: 0 auto;
+  font-size: 20px;
 }
 
 #toolbar li {
@@ -75,6 +79,7 @@ footer a {
 #toolbar li a:link {
   text-decoration: none; 
   text-align: center;
+  transition-duration: 0.4s;
 }
 
 #toolbar li a:hover {
@@ -87,6 +92,9 @@ footer a {
   font-size: 80px;
   padding: 0;
   margin: 0;
+  text-decoration:none;
+  font-weight: lighter;
+  color: #0c234e;
 }
 
 #shopping {
@@ -124,6 +132,7 @@ footer a {
   height: 396px; 
   transition: .5s ease;
   backface-visibility: hidden;
+  transition-duration: 0.4s;
 }
 
 .middle {
@@ -135,6 +144,7 @@ footer a {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  transition-duration: 0.4s;
 }
 
 .container:hover .homeImages {
@@ -142,6 +152,7 @@ footer a {
 }
 
 .container:hover img {
+  transition-duration: 0.4s;
   opacity: 0.8;
 }
 
@@ -158,9 +169,6 @@ footer a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
-
 
 
 /* All Products page */
