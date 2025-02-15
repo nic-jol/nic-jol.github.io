@@ -10,7 +10,7 @@
 /* General Elements */
 body {
   background-image: url(img/blue-background.jpg);
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: lighten;
   font-family: 'Merriweather Sans', sans-serif;
   padding: 5px 25px;
@@ -22,7 +22,7 @@ body {
 
 a {
   text-decoration: none;
-  /*color: #444;*/ 
+  /*color: #444;*/
 }
 
 ul {
@@ -49,7 +49,7 @@ footer a {
 /* Toolbar, Title */
 .active {
   display: block;
-  color:rgb(145, 145, 145);
+  color: rgb(145, 145, 145);
   text-align: center;
   padding: 30px 100px;
   text-decoration: none;
@@ -77,13 +77,13 @@ footer a {
 }
 
 #toolbar li a:link {
-  text-decoration: none; 
+  text-decoration: none;
   text-align: center;
   transition-duration: 0.4s;
 }
 
 #toolbar li a:hover {
-  color:rgb(145, 145, 145);
+  color: rgb(145, 145, 145);
   text-align: center;
 }
 
@@ -92,7 +92,7 @@ footer a {
   font-size: 80px;
   padding: 0;
   margin: 0;
-  text-decoration:none;
+  text-decoration: none;
   font-weight: lighter;
   color: #0c234e;
 }
@@ -129,7 +129,7 @@ footer a {
   opacity: 1;
   display: block;
   width: 600px;
-  height: 396px; 
+  height: 396px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -177,14 +177,14 @@ footer a {
   flex-flow: row;
 }
 
-.mainProducts > article {
+.mainProducts>article {
   margin: 4px;
   padding: 5px;
   flex: 3 1 60%;
   order: 2;
 }
 
-.mainProducts > nav {
+.mainProducts>nav {
   margin: 4px;
   padding: 5px;
   flex: 1 6 20%;
@@ -199,11 +199,13 @@ footer a {
   width: 187.5px;
 }
 
-#animals a, #blankets a {
+#animals a,
+#blankets a {
   color: #444;
 }
 
-#animals td, #blankets td {
+#animals td,
+#blankets td {
   border-spacing: 25px 25px;
 }
 
@@ -218,7 +220,7 @@ footer a {
   border-color: rgb(145, 145, 145);
 }
 
-.productBlock:hover{
+.productBlock:hover {
   background: radial-gradient(#e8e9ed, rgb(145, 145, 145));
   box-shadow: none;
 }
@@ -235,7 +237,7 @@ footer a {
 }
 
 .sellerTable th {
-  background-color: rgb(39, 39, 39); 
+  background-color: rgb(39, 39, 39);
   color: #e8e9ed;
   text-align: center;
   padding: 4px 0px;
@@ -280,10 +282,11 @@ footer a {
   padding: 10px;
 }
 
-#patternTable td, #patternTable a {
+#patternTable td,
+#patternTable a {
   color: #e8e9ed;
   text-align: left;
-  background-color:  #444;
+  background-color: #444;
   padding: 10px;
 }
 
@@ -330,7 +333,8 @@ footer a {
   color: #444;
 }
 
-#contactTable th, #contactTable td {
+#contactTable th,
+#contactTable td {
   padding: 25px;
 }
 
@@ -341,8 +345,32 @@ footer a {
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 
-.innerContactTable:hover{
+.innerContactTable:hover {
   background-color: #444;
   color: #e8e9ed;
   box-shadow: none;
+}
+
+/* Secret  */
+.secret-audio {
+  justify-self: center;
+  opacity: 40%;
+}
+
+#secret-image {
+  opacity: 0;
+  -webkit-transition: opacity 45s ease;
+  -moz-transition: opacity 45s ease;
+  -ms-transition: opacity 45s ease;
+  -o-transition: opacity 45s ease;
+  transition: opacity 45s ease;
+}
+
+#secret-image.in {
+  opacity: 1;
+}
+
+.secret-image-container {
+  display: flex;
+  justify-content: center;
 }
