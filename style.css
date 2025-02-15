@@ -132,7 +132,6 @@ footer a {
   height: 396px; 
   transition: .5s ease;
   backface-visibility: hidden;
-  transition-duration: 0.4s;
 }
 
 .middle {
@@ -144,7 +143,6 @@ footer a {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  transition-duration: 0.4s;
 }
 
 .container:hover .homeImages {
@@ -153,7 +151,7 @@ footer a {
 
 .container:hover img {
   transition-duration: 0.4s;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .container:hover .middle {
@@ -164,7 +162,7 @@ footer a {
   position: absolute;
   font-family: "FabricsLight", 'Merriweather Sans';
   font-size: 3.5em;
-  color: #e8e9ed;
+  color: #0c234e;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -214,14 +212,14 @@ footer a {
   width: 375px;
   height: 375px;
   box-shadow: 10px 10px 5px #aaaaaa;
-  background-color: white;
+  background-color: #e8e9ed;
   border-width: 1px;
   border-style: groove;
   border-color: rgb(145, 145, 145);
 }
 
 .productBlock:hover{
-  background-color: #e8e9ed;
+  background: radial-gradient(#e8e9ed, rgb(145, 145, 145));
   box-shadow: none;
 }
 
@@ -238,7 +236,7 @@ footer a {
 
 .sellerTable th {
   background-color: rgb(39, 39, 39); 
-  color: white;
+  color: #e8e9ed;
   text-align: center;
   padding: 4px 0px;
 }
@@ -249,11 +247,11 @@ footer a {
 
 .sellerTable li {
   text-align: left;
-  color: white;
+  color: #e8e9ed;
 }
 
 .sellerTable a {
-  color: white;
+  color: #e8e9ed;
 }
 
 .bestSellers a:hover {
@@ -337,7 +335,7 @@ footer a {
 }
 
 .innerContactTable {
-  background-color: white;
+  background-color: #e8e9ed;
   width: 600px;
   height: 300px;
   box-shadow: 10px 10px 5px #aaaaaa;
@@ -345,6 +343,6 @@ footer a {
 
 .innerContactTable:hover{
   background-color: #444;
-  color: white;
+  color: #e8e9ed;
   box-shadow: none;
 }
