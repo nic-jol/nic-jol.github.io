@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </style> -->
 </head>
+
 <body>
     <div id="titlebar">
         <table>
@@ -28,5 +29,46 @@
             </tr>
         </table>
     </div>
+    <div>
+        <h2>Products in shopping cart</h2>
+        <hr />
+        <div id="products-in-cart">
+            <div class="product-item">
+                <div class="product-image-container">
+                    <img class="product-image" src="img/octopus.PNG">
+                </div>
+                <div class="product-price-quan">
+                    <h3>Octopus</h3>
+                    <p>Price: $30 CAD</p>
+                    <p>Quantity: - 1 + </p>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="product-image-container">
+                    <img class="product-image" src="img/fox-scarf.jpg">
+                </div>
+                <div class="product-price-quan">
+                    <h3>Fox Scarf</h3>
+                    <p>Price: $50 CAD</p>
+                    <p>Quantity: - 1 + </p>
+                </div>
+            </div>
+        </div>
+        <div id="total-container">
+            <h3>Order Summary</h3>
+            <hr style="opacity: 20%" />
+            <p>Subtotal: $80 CAD</p>
+            <p>Shipping: $10 CAD</p>
+            <h4>Total: $90 CAD</h4>
+            <button id="place-order-btn" onclick="doSomething">Place Order</button>
+        </div>
+    </div>
+    <footer id="footer-cart">
+        <hr>
+        &copy; 2025
+        <a href="mailto:njlefebvre+2@gmail.com">Nicole Lefebvre</a>
+    </footer>
+
 
 </body>
